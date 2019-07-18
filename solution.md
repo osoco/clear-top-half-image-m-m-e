@@ -1,11 +1,14 @@
 <!-- HTML body -->
+```
 <div class="img__container">
     <canvas class="canvas" id="canvas" style="position: fixed;"></canvas>
     <img src="../assets/alan_kay.jpg" alt="original photo" class="photo">
   </div>
 <script src="index.js"></script>
+```
 
 <!-- JavaScript -->
+```
 const canvas = document.getElementById('canvas');
 const photo = document.querySelector('.photo');
 let context;
@@ -23,3 +26,4 @@ const clearTopHalf = picture => {
 };
 
 clearTopHalf(photo);
+```
