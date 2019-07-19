@@ -1,3 +1,4 @@
+```
 clearTopHalf(picture){
   width = getWidth(picture);
   height = getHeight(picture);
@@ -20,3 +21,4 @@ createRectangle(width, height, colour)
 splitPicture(pointToSplit-x, pointToSplit-y)
 first()
 replace(newItem)
+```
